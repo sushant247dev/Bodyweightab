@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "BodyweightLab",
     images: [
       {
-        url: "/images/hero/hero-athlete.svg",
+        url: "/images/hero/hero-athlete.jpg",
         width: 1200,
         height: 1600,
         alt: "BodyweightLab Calisthenics Mastery",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BodyweightLab — Elite Calisthenics & Handstand Coaching",
     description: "Strength is built. Control is earned. Personalized calisthenics coaching built around your body, your goals and your progress.",
-    images: ["/images/hero/hero-athlete.svg"],
+    images: ["/images/hero/hero-athlete.jpg"],
   },
 };
 

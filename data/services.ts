@@ -21,7 +21,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Weekly video form breakdown & alignment cues"
     ],
     idealFor: "Athletes stuck under 10-second holds or kicking erratically.",
-    image: "/images/skills/handstand.svg"
+    image: "/images/skills/handstand.jpg"
   },
   {
     number: "02",
@@ -35,7 +35,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "One-arm alignment & side-tilt conditioning"
     ],
     idealFor: "Athletes with solid basic balance wanting advanced versatility.",
-    image: "/images/skills/one-arm-handstand.svg"
+    image: "/images/skills/one-arm-handstand.jpg"
   },
   {
     number: "03",
@@ -49,7 +49,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Toe-slide & deficit elevation drills"
     ],
     idealFor: "Athletes lacking the compression or mobility to press up.",
-    image: "/images/skills/press-handstand.svg"
+    image: "/images/skills/press-handstand.jpg"
   },
   {
     number: "04",
@@ -63,7 +63,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Bi-weekly progression measurements"
     ],
     idealFor: "Tight athletes needing active mobility to unlock bodyweight skills.",
-    image: "/images/skills/middle-splits.svg"
+    image: "/images/skills/middle-splits.jpg"
   },
   {
     number: "05",
@@ -77,7 +77,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Periodized volume to prevent tendonitis"
     ],
     idealFor: "Athletes seeking elite horizontal static holds without injury.",
-    image: "/images/skills/planche.svg"
+    image: "/images/skills/planche.jpg"
   },
   {
     number: "06",
@@ -91,6 +91,6 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Recovery, deload, and fatigue management"
     ],
     idealFor: "Athletes looking for a complete, structured strength blueprint.",
-    image: "/images/skills/front-lever.svg"
+    image: "/images/skills/calisthenics.jpg"
   }
 ];

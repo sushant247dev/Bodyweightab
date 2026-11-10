@@ -120,7 +120,7 @@ export function Hero({ onOpenApply }: HeroProps) {
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[3/4] w-full bg-[#EBE7DF] overflow-hidden border border-[#111111]/10">
               <Image
-                src="/images/hero/hero-athlete.svg"
+                src="/images/hero/hero-athlete.jpg"
                 alt="BodyweightLab Coach Calisthenics Mastery"
                 fill
                 priority

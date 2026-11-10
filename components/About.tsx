@@ -20,7 +20,7 @@ export function About() {
           <div className="lg:col-span-5">
             <div className="relative aspect-[3/4] w-full bg-[#EBE7DF] border border-[#111111]/10 overflow-hidden">
               <Image
-                src="/images/about/coach-portrait.svg"
+                src="/images/about/coach-portrait.jpg"
                 alt="Head Coach — BodyweightLab"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"

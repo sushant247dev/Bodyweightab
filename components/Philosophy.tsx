@@ -83,7 +83,7 @@ export function Philosophy() {
           <div className="lg:col-span-4 relative mt-8 lg:mt-0">
             <div className="relative aspect-[3/4] w-full bg-[#EBE7DF] border border-[#111111]/10 overflow-hidden">
               <Image
-                src="/images/skills/press-handstand.svg"
+                src="/images/skills/press-handstand.jpg"
                 alt="BodyweightLab Biomechanical Precision"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
