@@ -56,7 +56,7 @@ export const SKILLS_DATA: SkillItem[] = [
     category: "Mobility & Strength",
     focus: "Thoracic extension, hip compression, scapular protraction",
     description: "Lifting into the handstand without kicking or momentum. Blending deep hamstring mobility, pancake flexibility, and continuous shoulder protraction.",
-    image: "/images/skills/press-handstand.jpg",
+    image: "/images/skills/press-handstand.png",
     aspectRatio: "square",
     progressionMilestones: ["Pancake floor stretch", "Elevated straddle press negatives", "Toe-slide press drills", "Effortless floor press"]
   },

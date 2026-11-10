@@ -49,7 +49,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Toe-slide & deficit elevation drills"
     ],
     idealFor: "Athletes lacking the compression or mobility to press up.",
-    image: "/images/skills/press-handstand.jpg"
+    image: "/images/skills/press-handstand.png"
   },
   {
     number: "04",

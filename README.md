@@ -58,7 +58,7 @@ Drop your skill photos into `public/images/skills/` and update paths in `data/sk
 1. `public/images/skills/handstand.jpg` (Handstand)
 2. `public/images/skills/handstand-pushup.jpg` (Handstand Push-Ups)
 3. `public/images/skills/one-arm-handstand.jpg` (One-Arm Handstand)
-4. `public/images/skills/press-handstand.jpg` (Press to Handstand)
+4. `public/images/skills/press-handstand.png` (Press to Handstand)
 5. `public/images/skills/l-sit.jpg` (L-Sit & V-Sit)
 6. `public/images/skills/middle-splits.jpg` (Middle Splits & Loaded Flexibility)
 7. `public/images/skills/planche.jpg` (Planche)
