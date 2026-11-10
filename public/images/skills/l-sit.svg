@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #EBE7DF; }
+      .grid { stroke: #D8D2C6; stroke-width: 1; stroke-dasharray: 4 6; }
+      .hairline { stroke: #111111; stroke-width: 0.75; opacity: 0.35; }
+      .badge-bg { fill: #111111; }
+      .badge-text { font-family: ui-monospace, monospace; font-size: 10px; fill: #FAF9F6; letter-spacing: 0.12em; text-transform: uppercase; }
+      .title-serif { font-family: 'Times New Roman', Times, serif; font-size: 26px; fill: #111111; font-style: italic; }
+      .meta-mono { font-family: ui-monospace, monospace; font-size: 11px; fill: #6B6862; letter-spacing: 0.15em; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" class="bg" />
+
+  <!-- Technical grid -->
+  <line x1="120" y1="0" x2="120" y2="800" class="grid" />
+  <line x1="1080" y1="0" x2="1080" y2="800" class="grid" />
+  <line x1="0" y1="96" x2="1200" y2="96" class="grid" />
+  <line x1="0" y1="704" x2="1200" y2="704" class="grid" />
+
+  <!-- Concentric focus circle -->
+  <circle cx="600" cy="400" r="224.00000000000003" class="hairline" stroke-dasharray="4 8" />
+
+  <!-- Biomechanical drawing -->
+  
+      <!-- Floor contact -->
+      <line x1="200" y1="620" x2="1000" y2="620" stroke="#111111" stroke-width="2" />
+      <!-- Hands on floor -->
+      <circle cx="480" cy="618" r="6" fill="#111111" />
+      <!-- Arms straight locked -->
+      <line x1="480" y1="618" x2="480" y2="440" stroke="#111111" stroke-width="3.5" stroke-linecap="round" />
+      <!-- Torso slightly hollow -->
+      <line x1="480" y1="440" x2="480" y2="280" stroke="#111111" stroke-width="4" stroke-linecap="round" />
+      <!-- Head upright -->
+      <circle cx="480" cy="240" r="14" fill="none" stroke="#111111" stroke-width="2" />
+      <!-- Butt elevated off floor -->
+      <line x1="480" y1="560" x2="520" y2="560" stroke="#6B6862" stroke-width="1.5" stroke-dasharray="4 4" />
+      <!-- Legs projected horizontally at 90 deg -->
+      <line x1="480" y1="540" x2="880" y2="540" stroke="#111111" stroke-width="3.5" stroke-linecap="round" />
+      <!-- Pointed toes -->
+      <line x1="880" y1="540" x2="920" y2="550" stroke="#111111" stroke-width="2" stroke-linecap="round" />
+      <!-- 90 deg angle indicator -->
+      <rect x="480" y="500" width="40" height="40" fill="none" stroke="#6B6862" stroke-width="1" />
+      <text x="540" y="520" font-family="monospace" font-size="11" fill="#6B6862">90.0° STRICT COMPRESSION</text>
+      <text x="540" y="440" font-family="monospace" font-size="11" fill="#6B6862">FULL SCAPULAR DEPRESSION</text>
+    
+
+  <!-- Header metadata -->
+  <rect x="50" y="40" width="300" height="28" class="badge-bg" />
+  <text x="65" y="58" class="badge-text">05 // L-SIT & V-SIT</text>
+
+  <text x="50" y="100" class="title-serif">Scapular Depression & Core Compression</text>
+  <text x="50" y="120" class="meta-mono">SLOT: /images/skills/l-sit.jpg</text>
+
+  <!-- Footer metadata -->
+  <text x="50" y="760" class="meta-mono">BODYWEIGHTLAB PROTOCOL // REPLACABLE ASSET</text>
+  <text x="1150" y="760" class="meta-mono" text-anchor="end">1200 x 800 PX</text>
+</svg>

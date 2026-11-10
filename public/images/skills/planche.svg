@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #EBE7DF; }
+      .grid { stroke: #D8D2C6; stroke-width: 1; stroke-dasharray: 4 6; }
+      .hairline { stroke: #111111; stroke-width: 0.75; opacity: 0.35; }
+      .badge-bg { fill: #111111; }
+      .badge-text { font-family: ui-monospace, monospace; font-size: 10px; fill: #FAF9F6; letter-spacing: 0.12em; text-transform: uppercase; }
+      .title-serif { font-family: 'Times New Roman', Times, serif; font-size: 26px; fill: #111111; font-style: italic; }
+      .meta-mono { font-family: ui-monospace, monospace; font-size: 11px; fill: #6B6862; letter-spacing: 0.15em; }
+    </style>
+  </defs>
+
+  <rect width="900" height="1200" class="bg" />
+
+  <!-- Technical grid -->
+  <line x1="90" y1="0" x2="90" y2="1200" class="grid" />
+  <line x1="810" y1="0" x2="810" y2="1200" class="grid" />
+  <line x1="0" y1="144" x2="900" y2="144" class="grid" />
+  <line x1="0" y1="1056" x2="900" y2="1056" class="grid" />
+
+  <!-- Concentric focus circle -->
+  <circle cx="450" cy="600" r="252.00000000000003" class="hairline" stroke-dasharray="4 8" />
+
+  <!-- Biomechanical drawing -->
+  
+      <!-- Floor contact -->
+      <line x1="200" y1="920" x2="740" y2="920" stroke="#111111" stroke-width="2" />
+      <!-- Hands placed firmly -->
+      <circle cx="400" cy="918" r="6" fill="#111111" />
+      <!-- Forward Leaning Straight Arm (45 deg angle) -->
+      <line x1="400" y1="918" x2="490" y2="760" stroke="#111111" stroke-width="3.5" stroke-linecap="round" />
+      <!-- Torso suspended perfectly horizontal -->
+      <line x1="490" y1="760" x2="280" y2="760" stroke="#111111" stroke-width="4" stroke-linecap="round" />
+      <!-- Head neutral -->
+      <circle cx="240" cy="760" r="14" fill="none" stroke="#111111" stroke-width="2" />
+      <!-- Fully extended horizontal legs -->
+      <line x1="490" y1="760" x2="800" y2="760" stroke="#111111" stroke-width="3.5" stroke-linecap="round" />
+      <!-- Pointed toes -->
+      <line x1="800" y1="760" x2="840" y2="760" stroke="#111111" stroke-width="2" />
+      <!-- Lean Angle Guideline -->
+      <line x1="400" y1="918" x2="400" y2="700" stroke="#6B6862" stroke-width="1.5" stroke-dasharray="5 5" />
+      <text x="420" y="850" font-family="monospace" font-size="11" fill="#6B6862">FORWARD LEAN 42°</text>
+      <text x="510" y="740" font-family="monospace" font-size="11" fill="#6B6862">180° HORIZONTAL AXIS</text>
+    
+
+  <!-- Header metadata -->
+  <rect x="50" y="40" width="300" height="28" class="badge-bg" />
+  <text x="65" y="58" class="badge-text">07 // FULL PLANCHE</text>
+
+  <text x="50" y="100" class="title-serif">Straight-Arm Protraction & Counterbalance</text>
+  <text x="50" y="120" class="meta-mono">SLOT: /images/skills/planche.jpg</text>
+
+  <!-- Footer metadata -->
+  <text x="50" y="1160" class="meta-mono">BODYWEIGHTLAB PROTOCOL // REPLACABLE ASSET</text>
+  <text x="850" y="1160" class="meta-mono" text-anchor="end">900 x 1200 PX</text>
+</svg>

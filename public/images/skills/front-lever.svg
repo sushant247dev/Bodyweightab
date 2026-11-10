@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #EBE7DF; }
+      .grid { stroke: #D8D2C6; stroke-width: 1; stroke-dasharray: 4 6; }
+      .hairline { stroke: #111111; stroke-width: 0.75; opacity: 0.35; }
+      .badge-bg { fill: #111111; }
+      .badge-text { font-family: ui-monospace, monospace; font-size: 10px; fill: #FAF9F6; letter-spacing: 0.12em; text-transform: uppercase; }
+      .title-serif { font-family: 'Times New Roman', Times, serif; font-size: 26px; fill: #111111; font-style: italic; }
+      .meta-mono { font-family: ui-monospace, monospace; font-size: 11px; fill: #6B6862; letter-spacing: 0.15em; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="1000" class="bg" />
+
+  <!-- Technical grid -->
+  <line x1="100" y1="0" x2="100" y2="1000" class="grid" />
+  <line x1="900" y1="0" x2="900" y2="1000" class="grid" />
+  <line x1="0" y1="120" x2="1000" y2="120" class="grid" />
+  <line x1="0" y1="880" x2="1000" y2="880" class="grid" />
+
+  <!-- Concentric focus circle -->
+  <circle cx="500" cy="500" r="280" class="hairline" stroke-dasharray="4 8" />
+
+  <!-- Biomechanical drawing -->
+  
+      <!-- Pull-up Bar -->
+      <line x1="200" y1="340" x2="800" y2="340" stroke="#111111" stroke-width="3" />
+      <!-- Hanging Hands -->
+      <circle cx="440" cy="340" r="5" fill="#111111" />
+      <circle cx="560" cy="340" r="5" fill="#111111" />
+      <!-- Straight Arms pulling down into lever -->
+      <line x1="440" y1="340" x2="410" y2="520" stroke="#111111" stroke-width="3" stroke-linecap="round" />
+      <line x1="560" y1="340" x2="590" y2="520" stroke="#111111" stroke-width="3" stroke-linecap="round" />
+      <!-- Shoulders -->
+      <line x1="410" y1="520" x2="590" y2="520" stroke="#111111" stroke-width="3" />
+      <!-- Horizontal body plane -->
+      <line x1="320" y1="520" x2="860" y2="520" stroke="#111111" stroke-width="4" stroke-linecap="round" />
+      <circle cx="280" cy="520" r="14" fill="none" stroke="#111111" stroke-width="2" />
+      <!-- Feet together -->
+      <line x1="860" y1="520" x2="900" y2="520" stroke="#111111" stroke-width="2" />
+      <!-- Horizontal reference line -->
+      <line x1="160" y1="520" x2="940" y2="520" stroke="#6B6862" stroke-width="1" stroke-dasharray="5 5" />
+      <text x="500" y="440" font-family="monospace" font-size="11" fill="#6B6862" text-anchor="middle">ACTIVE LAT DEPRESSION</text>
+      <text x="500" y="550" font-family="monospace" font-size="11" fill="#6B6862" text-anchor="middle">POSTERIOR PELVIC TILT</text>
+    
+
+  <!-- Header metadata -->
+  <rect x="50" y="40" width="300" height="28" class="badge-bg" />
+  <text x="65" y="58" class="badge-text">08 // FRONT LEVER</text>
+
+  <text x="50" y="100" class="title-serif">Posterior Tension & Lat Depression</text>
+  <text x="50" y="120" class="meta-mono">SLOT: /images/skills/front-lever.jpg</text>
+
+  <!-- Footer metadata -->
+  <text x="50" y="960" class="meta-mono">BODYWEIGHTLAB PROTOCOL // REPLACABLE ASSET</text>
+  <text x="950" y="960" class="meta-mono" text-anchor="end">1000 x 1000 PX</text>
+</svg>
