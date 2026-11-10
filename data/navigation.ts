@@ -19,7 +19,7 @@ export const BRAND_CONFIG = {
   name: "BODYWEIGHTLAB",
   tagline: "Personalized Calisthenics Coaching",
   coachName: "Sushant Singh",
-  email: "coaching@bodyweightlab.com",
+  email: "notsosushant@gmail.com",
   instagram: "bodyweightlab_",
   instagramUrl: "https://instagram.com/bodyweightlab_",
   availabilityStatus: "Accepting 4 Athletes for Q2 / Q3",
