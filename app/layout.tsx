@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bodyweightlab.com"),
-  title: "BodyweightLab — Elite Calisthenics & Handstand Coaching",
+  title: "Sushant Singh — Elite Calisthenics & Handstand Coaching",
   description: "Personalized skill acquisition for athletes who want to master advanced bodyweight movements: handstands, presses, levers, and loaded flexibility.",
   keywords: [
     "calisthenics coaching",
@@ -12,21 +12,22 @@ export const metadata: Metadata = {
     "planche coaching",
     "front lever",
     "bodyweight strength",
-    "calisthenics mobility"
+    "calisthenics mobility",
+    "Sushant Singh"
   ],
-  authors: [{ name: "BodyweightLab" }],
-  creator: "BodyweightLab",
+  authors: [{ name: "Sushant Singh" }],
+  creator: "Sushant Singh",
   openGraph: {
-    title: "BodyweightLab — Elite Calisthenics & Handstand Coaching",
+    title: "Sushant Singh — Elite Calisthenics & Handstand Coaching",
     description: "Strength is built. Control is earned. Personalized calisthenics coaching built around your body, your goals and your progress.",
     url: "https://bodyweightlab.com",
-    siteName: "BodyweightLab",
+    siteName: "Sushant Singh",
     images: [
       {
         url: "/images/hero/hero-athlete.jpg",
         width: 1200,
         height: 1600,
-        alt: "BodyweightLab Calisthenics Mastery",
+        alt: "Sushant Singh Calisthenics Mastery",
       },
     ],
     locale: "en_US",
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BodyweightLab — Elite Calisthenics & Handstand Coaching",
+    title: "Sushant Singh — Elite Calisthenics & Handstand Coaching",
     description: "Strength is built. Control is earned. Personalized calisthenics coaching built around your body, your goals and your progress.",
     images: ["/images/hero/hero-athlete.jpg"],
   },

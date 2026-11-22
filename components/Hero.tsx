@@ -142,9 +142,6 @@ export function Hero({ onOpenApply }: HeroProps) {
             </div>
 
             {/* Micro Caption */}
-            <p className="mt-3 text-[11px] font-mono tracking-wider text-[#6B6862] text-right">
-              [ Coach Photography Container — Replaceable in /public/images/hero/ ]
-            </p>
           </div>
         </div>
       </div>

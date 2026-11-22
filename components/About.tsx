@@ -35,10 +35,6 @@ export function About() {
               </div>
             </div>
 
-            <p className="mt-2 text-[10px] font-mono text-[#6B6862] text-right">
-              [ Coach Portrait Container — Replaceable in /public/images/about/ ]
-            </p>
-
             <div className="mt-8 p-6 bg-[#F2EFE9] border border-[#111111]/8 space-y-3 text-xs font-mono">
               <div className="text-[#111111] font-semibold uppercase tracking-wider">
                 Coaching Commitments

@@ -149,16 +149,28 @@ body {
 }
 
 /* Subtle Editorial Scroll Reveal Animations */
-.reveal-on-scroll {
-  opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: opacity, transform;
+/* Only hide elements on desktop screens (md: 768px+) where JS observer will reveal them */
+@media (min-width: 768px) {
+  .reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+  }
+
+  .reveal-on-scroll.is-revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.reveal-on-scroll.is-revealed {
-  opacity: 1;
-  transform: translateY(0);
+/* On mobile screens, always keep elements fully visible and non-blocking */
+@media (max-width: 767px) {
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -16,7 +16,8 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const BRAND_CONFIG = {
-  name: "BODYWEIGHTLAB",
+  name: "SUSHANT SINGH",
+  brandLabel: "BODYWEIGHTLAB",
   tagline: "Personalized Calisthenics Coaching",
   coachName: "Sushant Singh",
   email: "notsosushant@gmail.com",
