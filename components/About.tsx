@@ -21,7 +21,7 @@ export function About() {
             <div className="relative aspect-[3/4] w-full bg-[#EBE7DF] border border-[#111111]/10 overflow-hidden">
               <Image
                 src="/images/about/coach-portrait.jpg"
-                alt="Head Coach — BodyweightLab"
+                alt="Founder & Head Coach Sushant Singh"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
                 className="object-cover"
